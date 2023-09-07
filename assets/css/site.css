@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+
+    display: grid;
+        grid-template-columns: 20% 70%;
+        grid-template-rows: 200px auto;
+        background-color: rgb(18, 17, 19);
+
+      }
+
+      a{
+        text-decoration: none;
+ 
+        padding: 0.5em;
+
+        border: solid 2px rgb(241, 216, 216);
+border-radius: 0.5em;
+background-color: rgb(168, 15, 15);
+color: aliceblue;
+      }
+
+      a:hover{
+        background-color: rgb(210, 72, 30);
+      }
+
+      header{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end:  2;
+        background-color: rgb(155, 154, 155);
+        padding: 1em;
+      }
+
+      aside{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end:  3;
+    
+        background-color: rgb(30, 31, 30);
+  
+padding-left: 1em;
+padding-bottom: 10em;
+      }
+
+      .content{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end:  3;
+        padding-left: 1em;
+        background-color: rgb(83, 82, 82);
+
+      }
+
+      label{
+display: block;
+font-weight: bold;
+
+      }
+
+      input{
+display: inline-block;
+border-radius: 0.5em;
+height: 2em;
+border: none;
+      }
+
+      button{
+display: inline-block;
+margin-bottom: 1em;
+height: 2em;
+
+border: solid 2px rgb(241, 216, 216);
+border-radius: 0.5em;
+background-color: rgb(168, 15, 15);
+color: aliceblue;
+      }
